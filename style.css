@@ -1,0 +1,26 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board {
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    text-align: center;
+    gap: 10px;
+}
+
+.cells {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.cells:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
